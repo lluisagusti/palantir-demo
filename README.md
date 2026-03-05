@@ -1,76 +1,233 @@
-# PALANTIR DEMO — Real-Time Geopolitical Intelligence
+# ⚛️ PALANTIR DEMO
+## Real-Time Global Intelligence Platform
 
-An interactive, high-fidelity 3D dashboard visualizing global geopolitical risks, environmental events, and strategic infrastructure in real-time.
+<div align="center">
 
-## 🌍 Overview
+![Screen 1](readme-assets/screen-1.png)
 
-PALANTIR DEMO provides a comprehensive global intelligence view by tracking:
-- **Geopolitical Threats**: Real-time monitoring of global conflict zones and risk levels.
-- **Environmental Monitoring**: Live tracking of Earthquakes, Volcanoes, Lightning strikes, and Radiation levels.
-- **Global Logistics**: Real-time visualization of Aircraft flights and Maritime shipping routes.
-- **Meteorological Data**: Live weather patterns and atmospheric conditions.
-- **Surveillance**: Integrated public live stream cameras from strategic locations worldwide.
+**Advanced geopolitical monitoring and worldwide threat assessment system**
 
-## 🚀 Tech Stack
+[![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white&style=flat-square)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev)
+[![THREE.js](https://img.shields.io/badge/Three.js-globe-black?style=flat-square)](https://threejs.org)
 
-- **Framework**: React 19 (Vite)
-- **3D Visualization**: `react-globe.gl` (Three.js powered)
-- **Styling**: Tailwind CSS 4.0
-- **Icons**: Lucide-React
-- **Real-time Engine**: Custom high-performance mock simulation engine.
-
-## 🛠️ Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v20+ recommended)
-- [npm](https://www.npmjs.com/)
-
-### Installation
-
-1. **Clone repository:**
-   ```bash
-   git clone <repository-url>
-   cd palantir-demo
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-### Running the Application
-
-1. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-   *Access the dashboard at the URL provided by Vite (usually http://localhost:5173).*
-
-## 🌐 Deployment
-
-This project is configured for easy deployment to GitHub Pages.
-
-1. **Build and Deploy:**
-   ```bash
-   npm run deploy
-   ```
-   *This will automatically build the project and push the `dist` folder to the `gh-pages` branch.*
-
-2. **GitHub Settings:**
-   - Go to your GitHub repository **Settings**.
-   - Navigate to **Pages**.
-   - Under **Build and deployment** > **Source**, ensure **"Deploy from a branch"** is selected.
-   - Select the **`gh-pages`** branch and the **`/(root)`** folder.
-
-## 📈 Key Features
-
-- **Dynamic 3D Globe**: High-performance visualization with interactive exploration of global data layers.
-- **Advanced Event Monitoring**: Detailed modals for every event (quakes, flights, threats) with contextual information.
-- **Maritime Operations**: Real-time tracking of cargo ships and tankers through international shipping lanes.
-- **Live Surveillance**: Interactive camera zapping system for watching public streams around the world.
-- **War Room Aesthetic**: Sleek, high-contrast dark-mode UI designed for professional intelligence monitoring.
-
+</div>
 
 ---
 
+## 🎯 Mission Brief
+
+PALANTIR DEMO is an enterprise-grade intelligence visualization platform providing real-time situational awareness across geopolitical, environmental, and logistical dimensions. Built for operational excellence and rapid decision-making.
+
+### Intelligence Domains
+
+| Domain | Capabilities |
+|--------|-------------|
+| **🔴 Geopolitical Threat Assessment** | Real-time conflict zone monitoring, risk quantification, strategic hotspot tracking |
+| **🌋 Environmental Hazards** | Seismic activity, volcanic events, atmospheric radiation, lightning strike detection |
+| **✈️ Global Logistics** | Live aircraft tracking, maritime route visualization, cargo flow analysis |
+| **⛅ Meteorological Intelligence** | Weather pattern analysis, atmospheric conditions, climate event correlation |
+| **📡 Electronic Surveillance** | Global camera network integration, strategic location streaming, reconnaissance feeds |
+
+---
+
+## 📊 Dashboard Overview
+
+<div align="center">
+
+![Screen 2](readme-assets/screen-2.png)
+
+*Interactive 3D globe with multi-layer data visualization*
+
+</div>
+
+### Core Capabilities
+
+**Dynamic Global Visualization**
+- High-performance 3D globe rendering with WebGL acceleration
+- Multi-layered data overlay system
+- Interactive drill-down capabilities for detailed analysis
+- Seamless globe rotation and zoom navigation
+
+**Advanced Event Intelligence**
+- Real-time event detection and classification
+- Contextual information panels with metadata
+- Historical threat analysis and pattern recognition
+- Automated risk scoring algorithms
+
+**Operational Command Features**
+- War room aesthetic with professional dark-mode interface
+- High-contrast design for extended operational sessions
+- Responsive layout for multi-monitor deployments
+- Touch-enabled for tactical command centers
+
+---
+
+## 🚀 Deployment & Operations
+
+<div align="center">
+
+![Screen 3](readme-assets/screen-3.png)
+
+*System monitoring and real-time data integration*
+
+</div>
+
+### Quick Launch
+
+```bash
+# Foundation setup
+npm install
+
+# Development deployment
+npm run dev
+
+# Production build
+npm run build
+
+# GitHub Pages deployment
+npm run deploy
+```
+
+### System Requirements
+
+| Requirement | Specification |
+|-------------|--------------|
+| **Node.js** | v20+ LTS |
+| **npm** | Latest version |
+| **Browser** | Modern (Chrome, Firefox, Safari, Edge) |
+| **GPU** | Recommended for optimal performance |
+
+### Cloud Deployment
+
+Configure GitHub Pages deployment:
+
+1. Navigate to repository **Settings** → **Pages**
+2. Set source to **gh-pages branch** from **root folder**
+3. Run `npm run deploy` to publish
+
+The system will automatically build and deploy to your GitHub Pages instance.
+
+---
+
+## ⚙️ Technical Architecture
+
+<div align="center">
+
+![Screen 4](readme-assets/screen-4.png)
+
+*Advanced monitoring and analytics dashboard*
+
+</div>
+
+### Technology Stack
+
+```
+Frontend Framework       React 19 (Vite)
+3D Visualization        react-globe.gl (Three.js)
+Styling System          Tailwind CSS 4.0
+UI Components           Lucide-React
+State Management        React Hooks
+Build System            Vite 6
+Simulation Engine       Custom High-Performance
+```
+
+### Component Architecture
+
+| Component | Function |
+|-----------|----------|
+| **GlobeComponent** | 3D visualization engine and viewport management |
+| **Dashboard** | Main operational interface and layout |
+| **EventDetailModal** | Deep-dive analysis for individual events |
+| **MarketTickers** | Real-time data feeds and market indicators |
+| **NewsFeed** | Intelligence bulletin aggregation system |
+| **VideoModal** | Surveillance feed integration and playback |
+
+---
+
+## 🔧 Development Workflow
+
+### Local Development
+
+```bash
+# Clone and setup
+git clone <repository-url>
+cd palantir-demo
+
+# Install dependencies
+npm install
+
+# Start hot-reload development server
+npm run dev
+```
+
+Access at `http://localhost:5173` with live HMR updates.
+
+### Build Pipeline
+
+```bash
+# Production optimization
+npm run build
+
+# Output: dist/ directory ready for deployment
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📋 Project Structure
+
+```
+palantir-demo/
+├── src/
+│   ├── components/          # React component modules
+│   │   ├── Dashboard.jsx
+│   │   ├── GlobeComponent.jsx
+│   │   ├── EventDetailModal.jsx
+│   │   ├── MarketTickers.jsx
+│   │   ├── NewsFeed.jsx
+│   │   └── VideoModal.jsx
+│   │
+│   ├── data/                # Data simulation engines
+│   │   ├── mockEngine.js
+│   │   ├── cameras.js
+│   │   └── maritimeRoutes.js
+│   │
+│   ├── App.jsx              # Root application component
+│   ├── main.jsx             # Entry point
+│   └── index.css            # Global styles
+│
+├── readme-assets/           # Documentation graphics
+├── index.html               # HTML template
+├── vite.config.js           # Build configuration
+└── package.json             # Dependencies manifest
+```
+
+---
+
+## 🎓 Educational & Demonstration Use
+
+This platform demonstrates enterprise-level real-time intelligence visualization capabilities. Designed for educational exploration of:
+
+- Advanced React patterns and performance optimization
+- WebGL and 3D web visualization techniques
+- Real-time data streaming architecture
+- High-fidelity UI/UX for command centers
+- Geospatial data visualization methodology
+
+---
+
+## 📄 License & Attribution
+
 Created for demonstration and educational purposes.
+
+<div align="center">
+
+**For inquiries**: Check repository issues or documentation
+
+</div>
