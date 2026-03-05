@@ -27,7 +27,7 @@ PALANTIR DEMO provides a comprehensive global intelligence view by tracking:
 
 ### Installation
 
-1. **Clone the repository:**
+1. **Clone repository:**
    ```bash
    git clone <repository-url>
    cd palantir-demo
