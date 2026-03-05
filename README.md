@@ -46,6 +46,22 @@ PALANTIR DEMO provides a comprehensive global intelligence view by tracking:
    ```
    *Access the dashboard at the URL provided by Vite (usually http://localhost:5173).*
 
+## 🌐 Deployment
+
+This project is configured for easy deployment to GitHub Pages.
+
+1. **Build and Deploy:**
+   ```bash
+   npm run deploy
+   ```
+   *This will automatically build the project and push the `dist` folder to the `gh-pages` branch.*
+
+2. **GitHub Settings:**
+   - Go to your GitHub repository **Settings**.
+   - Navigate to **Pages**.
+   - Under **Build and deployment** > **Source**, ensure **"Deploy from a branch"** is selected.
+   - Select the **`gh-pages`** branch and the **`/(root)`** folder.
+
 ## 📈 Key Features
 
 - **Dynamic 3D Globe**: High-performance visualization with interactive exploration of global data layers.

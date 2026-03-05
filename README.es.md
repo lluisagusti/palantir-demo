@@ -46,6 +46,22 @@ PALANTIR DEMO proporciona una visión integral de inteligencia global mediante e
    ```
    *Acceda al panel de control en la URL proporcionada por Vite (normalmente http://localhost:5173).*
 
+## 🌐 Despliegue
+
+Este proyecto está configurado para un despliegue sencillo en GitHub Pages.
+
+1. **Compilar y Desplegar:**
+   ```bash
+   npm run deploy
+   ```
+   *Esto compilará automáticamente el proyecto y subirá la carpeta `dist` a la rama `gh-pages`.*
+
+2. **Configuración en GitHub:**
+   - Vaya a la **Configuración** (Settings) de su repositorio en GitHub.
+   - Navegue a **Pages**.
+   - En **Build and deployment** > **Source**, asegúrese de que **"Deploy from a branch"** esté seleccionado.
+   - Seleccione la rama **`gh-pages`** y la carpeta **`/(root)`**.
+
 ## 📈 Características Principales
 
 - **Globo 3D Dinámico**: Visualización de alto rendimiento con exploración interactiva de capas de datos globales.

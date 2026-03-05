@@ -46,6 +46,22 @@ PALANTIR DEMO offre une vision complète de l'intelligence mondiale en suivant :
    ```
    *Accédez au tableau de bord via l'URL fournie par Vite (généralement http://localhost:5173).*
 
+## 🌐 Déploiement
+
+Ce projet est configuré pour un déploiement facile sur GitHub Pages.
+
+1. **Construire et Déployer :**
+   ```bash
+   npm run deploy
+   ```
+   *Cela construira automatiquement le projet et poussera le dossier `dist` vers la branche `gh-pages`.*
+
+2. **Paramètres GitHub :**
+   - Accédez aux **Paramètres** (Settings) de votre dépôt GitHub.
+   - Allez dans **Pages**.
+   - Sous **Build and deployment** > **Source**, assurez-vous que **"Deploy from a branch"** est sélectionné.
+   - Sélectionnez la branche **`gh-pages`** et le dossier **`/(root)`**.
+
 ## 📈 Fonctionnalités Clés
 
 - **Globe 3D Dynamique** : Visualisation haute performance avec exploration interactive des couches de données mondiales.

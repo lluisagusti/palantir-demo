@@ -46,6 +46,22 @@ PALANTIR DEMO 通过跟踪以下内容提供全面的全球情报视图：
    ```
    *通过 Vite 提供的 URL（通常为 http://localhost:5173）访问仪表板。*
 
+## 🌐 部署
+
+该项目已配置为可以轻松部署到 GitHub Pages。
+
+1. **构建并部署：**
+   ```bash
+   npm run deploy
+   ```
+   *这将自动构建项目并将 `dist` 文件夹推送到 `gh-pages` 分支。*
+
+2. **GitHub 设置：**
+   - 进入您的 GitHub 仓库 **Settings**（设置）。
+   - 导航至 **Pages**。
+   - 在 **Build and deployment** > **Source** 下，确保选择 **"Deploy from a branch"**。
+   - 选择 **`gh-pages`** 分支和 **`/(root)`** 文件夹。
+
 ## 📈 核心功能
 
 - **动态 3D 地球仪**：高性能可视化，支持交互式探索全球数据层。
