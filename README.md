@@ -224,7 +224,7 @@ This platform demonstrates enterprise-level real-time intelligence visualization
 
 ## 📄 License & Attribution
 
-Created for demonstration and educational purposes.
+Created for demonstration and educational purposes
 
 <div align="center">
 
