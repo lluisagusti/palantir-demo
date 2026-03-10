@@ -1,5 +1,5 @@
 # ⚛️ PALANTIR DEMO
-## Plateforme d'Intelligence Mondiale en Temps Réel
+## Plateforme de Renseignement Global en Temps Réel
 
 <div align="center">
 
@@ -10,24 +10,57 @@
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white&style=flat-square)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev)
 [![THREE.js](https://img.shields.io/badge/Three.js-globe-black?style=flat-square)](https://threejs.org)
+[![Mobile](https://img.shields.io/badge/Mobile-Responsive-green?style=flat-square)](MOBILE_IMPROVEMENTS.md)
 
 </div>
 
 ---
 
-## 🎯 Briefing de Mission
+## 🎯 Description de la Mission
 
-PALANTIR DEMO est une plateforme de visualisation d'intelligence de niveau entreprise fournissant une connaissance de la situation en temps réel dans les dimensions géopolitiques, environnementales et logistiques. Construite pour l'excellence opérationnelle et la prise de décision rapide.
+PALANTIR DEMO est une plateforme de visualisation de renseignement de niveau entreprise fournissant une conscience situationnelle en temps réel à travers les dimensions géopolitiques, environnementales et logistiques. Conçu pour l'excellence opérationnelle et la prise de décision rapide.
 
-### Domaines d'Intelligence
+### 🆕 Maintenant Entièrement Responsive pour Mobile !
+
+La plateforme offre désormais une expérience immersive de type application native sur les appareils mobiles avec :
+- 📱 Interface optimisée pour le tactile avec retour haptique
+- 🎮 Gestes de balayage pour une navigation intuitive
+- 📲 Modales plein écran et panneaux inférieurs
+- 🌐 Navigation coulissante avec contrôles des calques
+- ⚡ Données en temps réel optimisées pour les réseaux mobiles
+
+### Domaines de Renseignement
 
 | Domaine | Capacités |
-|---------|----------|
-| **🔴 Évaluation des Menaces Géopolitiques** | Surveillance en temps réel des zones de conflit, quantification des risques, suivi des points chauds stratégiques |
-| **🌋 Aléas Environnementaux** | Activité sismique, événements volcaniques, radiation atmosphérique, détection des impacts de foudre |
-| **✈️ Logistique Mondiale** | Suivi des vols en direct, visualisation des routes maritimes, analyse des flux de cargaison |
-| **⛅ Renseignement Météorologique** | Analyse des modèles de temps, conditions atmosphériques, corrélation des événements climatiques |
-| **📡 Surveillance Électronique** | Intégration du réseau de caméras mondial, streaming depuis les emplacements stratégiques, flux de reconnaissance |
+|---------|-----------|
+| **🔴 Évaluation des Menaces Géopolitiques** | Surveillance en temps réel des zones de conflit, quantification des risques |
+| **🌋 Risques Environnementaux** | Activité sismique, événements volcaniques, radiation atmosphérique |
+| **✈️ Logistique Globale** | Suivi des vols en direct, visualisation des routes maritimes |
+| **⛅ Renseignement Météorologique** | Analyse des modèles météorologiques, conditions atmosphériques |
+| **📡 Surveillance Électronique** | Intégration de réseau de caméras global, flux de reconnaissance |
+
+---
+
+## 📱 Expérience Mobile
+
+### Gestes Tactiles
+
+| Geste | Action |
+|-------|--------|
+| **Balayer Gauche/Droite** | Changer de caméra en direct |
+| **Balayer Vers le Bas** | Fermer le flux d'actualités |
+| **Appuyer** | Sélectionner des événements, ouvrir les détails |
+| **Pincer** | Zoom du globe |
+| **Faire Glisser** | Rotation du globe |
+
+### Fonctionnalités de l'Interface Mobile
+
+- **Navigation Coulissante** - Panneau pleine hauteur avec bascules de calques
+- **Statistiques Rapides** - Comptes en temps réel en bas de l'écran
+- **Tickers Horizontaux** - Données de marché défilantes
+- **Panneau Inférieur** - Actualités avec balayage vers le haut
+- **Vidéo Plein Écran** - Visualisation immersive des caméras
+- **Retour Haptique** - Réponse tactile pour toutes les interactions
 
 ---
 
@@ -43,109 +76,105 @@ PALANTIR DEMO est une plateforme de visualisation d'intelligence de niveau entre
 
 ### Capacités Principales
 
-**Visualisation Mondiale Dynamique**
+**Visualisation Globale Dynamique**
 - Rendu de globe 3D haute performance avec accélération WebGL
 - Système de superposition de données multi-couches
-- Capacités d'exploration interactive pour une analyse détaillée
-- Navigation fluide avec rotation et zoom du globe
+- Capacités d'exploration interactive pour analyse détaillée
+- **Mobile :** Contrôles optimisés pour le tactile avec retour haptique
 
 **Renseignement Avancé sur les Événements**
-- Détection et classification des événements en temps réel
-- Panneaux d'informations contextuelles avec métadonnées
-- Analyse des menaces historiques et reconnaissance de motifs
-- Algorithmes de notation automatique des risques
+- Détection et classification d'événements en temps réel
+- Panneaux d'information contextuels avec métadonnées
+- Analyse historique des menaces et reconnaissance de motifs
+- **Mobile :** Modales de détails en plein écran avec liens externes
 
-**Caractéristiques de Commandement Opérationnel**
-- Esthétique de salle de guerre avec interface sombre professionnelle
-- Conception à contraste élevé pour les sessions opérationnelles prolongées
-- Mise en page réactive pour les déploiements multi-écrans
-- Activation tactile pour les centres de commandement tactiques
+**Fonctionnalités de Commande Opérationnelle**
+- Esthétique de salle de guerre avec interface professionnelle en mode sombre
+- Conception à contraste élevé pour sessions opérationnelles prolongées
+- Disposition responsive pour déploiements multi-écrans
+- **Mobile :** Menus coulissants, panneaux inférieurs, gestes de balayage
 
 ---
 
 ## 🚀 Déploiement et Opérations
 
-<div align="center">
-
-![Écran 3](readme-assets/screen-3.png)
-
-*Surveillance du système et intégration des données en temps réel*
-
-</div>
-
 ### Lancement Rapide
 
 ```bash
-# Configuration fondamentale
+# Installation de base
 npm install
 
-# Déploiement de développement
+# Déploiement en développement
 npm run dev
 
-# Construction en production
+# Build de production
 npm run build
 
 # Déploiement GitHub Pages
 npm run deploy
 ```
 
-### Exigences Système
+### Configuration Requise
 
-| Exigence | Spécification |
-|----------|--------------|
+| Requis | Spécification |
+|--------|---------------|
 | **Node.js** | v20+ LTS |
 | **npm** | Dernière version |
 | **Navigateur** | Moderne (Chrome, Firefox, Safari, Edge) |
-| **GPU** | Recommandé pour les performances optimales |
+| **GPU** | Recommandé pour performances optimales |
+| **Mobile** | iOS 14+ / Android 10+ recommandé |
+
+### Support des Navigateurs Mobiles
+
+| Plateforme | Navigateur | Support |
+|------------|------------|---------|
+| **iOS** | Safari | ✅ Complet |
+| **iOS** | Chrome | ✅ Complet |
+| **Android** | Chrome | ✅ Complet |
+| **Android** | Firefox | ✅ Complet |
+| **Android** | Samsung Internet | ✅ Complet |
 
 ### Déploiement Cloud
 
-Configurez le déploiement GitHub Pages :
+Configurer le déploiement GitHub Pages :
 
-1. Accédez à **Settings** → **Pages** du dépôt
-2. Définissez la source sur la **branche gh-pages** depuis le **dossier racine**
-3. Exécutez `npm run deploy` pour publier
-
-Le système se compilera et se déploiera automatiquement sur votre instance GitHub Pages.
+1. Accéder à **Settings** → **Pages** du dépôt
+2. Définir la source sur **gh-pages branch** depuis **root folder**
+3. Exécuter `npm run deploy` pour publier
 
 ---
 
 ## ⚙️ Architecture Technique
 
-<div align="center">
-
-![Écran 4](readme-assets/screen-4.png)
-
-*Tableau de bord avancé de surveillance et d'analyse*
-
-</div>
-
-### Pile Technologique
+### Stack Technologique
 
 ```
-Framework Frontend          React 19 (Vite)
-Visualisation 3D            react-globe.gl (Three.js)
-Système de Style            Tailwind CSS 4.0
-Composants UI               Lucide-React
-Gestion d'État              React Hooks
-Système de Compilation      Vite 6
-Moteur de Simulation        Personnalisé Haute Performance
+Framework Frontend       React 19 (Vite)
+Visualisation 3D         react-globe.gl (Three.js)
+Système de Style         Tailwind CSS 4.0
+Composants UI            Lucide-React
+Gestion d'État           React Hooks
+Système de Build         Vite 6
+Moteur de Simulation     Personnalisé
+Gestes Mobiles           Custom Touch Hook
+Retour Haptique          Navigator Vibration API
 ```
 
 ### Architecture des Composants
 
-| Composant | Fonction |
-|----------|----------|
-| **GlobeComponent** | Moteur de visualisation 3D et gestion de la fenêtre d'affichage |
-| **Dashboard** | Interface opérationnelle principale et disposition |
-| **EventDetailModal** | Analyse approfondie pour les événements individuels |
-| **MarketTickers** | Flux de données en temps réel et indicateurs de marché |
-| **NewsFeed** | Système d'agrégation des bulletins d'intelligence |
-| **VideoModal** | Intégration et lecture des flux de surveillance |
+| Composant | Fonction | Amélioration Mobile |
+|-----------|----------|---------------------|
+| **GlobeComponent** | Moteur de visualisation 3D | Contrôles tactiles, marqueurs larges |
+| **Dashboard** | Interface opérationnelle principale | Design responsive, header mobile |
+| **MobileMenu** | Navigation coulissante | Bascules de calques |
+| **EventDetailModal** | Analyse approfondie | Modale plein écran |
+| **MarketTickers** | Flux de données en temps réel | Ticker défilant horizontal |
+| **NewsFeed** | Bulletin de renseignement | Panneau inférieur coulissant |
+| **VideoModal** | Flux de surveillance | Plein écran avec zones tactiles |
 
 ---
 
-## 🔧 Flux de Travail de Développement
+## 🔧 Flux de Développement
 
 ### Développement Local
 
@@ -157,22 +186,35 @@ cd palantir-demo
 # Installer les dépendances
 npm install
 
-# Démarrer le serveur de développement avec rechargement à chaud
+# Démarrer le serveur de développement avec HMR
 npm run dev
 ```
 
-Accéder à `http://localhost:5173` avec les mises à jour HMR en direct.
+Accès via `http://localhost:5173` avec mises à jour HMR en direct.
 
-### Pipeline de Construction
+### Tests Mobiles
+
+**Chrome DevTools :**
+1. Appuyer sur `F12` ou `Cmd+Option+I`
+2. Cliquer sur l'icône de périphérique ou appuyer sur `Cmd+Shift+M`
+3. Sélectionner un périphérique (iPhone 14 Pro, Pixel 7, iPad)
+4. Tester les gestes tactiles avec simulation souris/tactile
+
+**Appareil Physique :**
+1. S'assurer que l'appareil est sur le même réseau
+2. Accéder via `http://<votre-ip>:5173`
+3. Tester le retour haptique sur les appareils compatibles
+
+### Pipeline de Build
 
 ```bash
-# Optimisation en production
+# Optimisation de production
 npm run build
 
-# Sortie : répertoire dist/ prêt pour le déploiement
+# Sortie : répertoire dist/ prêt pour déploiement
 ```
 
-### Aperçu de la Construction en Production
+### Aperçu du Build de Production
 
 ```bash
 npm run preview
@@ -186,48 +228,79 @@ npm run preview
 palantir-demo/
 ├── src/
 │   ├── components/          # Modules de composants React
-│   │   ├── Dashboard.jsx
+│   │   ├── Dashboard.jsx    # Disposition principale (responsive)
 │   │   ├── GlobeComponent.jsx
 │   │   ├── EventDetailModal.jsx
 │   │   ├── MarketTickers.jsx
 │   │   ├── NewsFeed.jsx
-│   │   └── VideoModal.jsx
+│   │   ├── VideoModal.jsx
+│   │   └── MobileMenu.jsx   # NOUVEAU : Navigation mobile
 │   │
 │   ├── data/                # Moteurs de simulation de données
 │   │   ├── mockEngine.js
 │   │   ├── cameras.js
 │   │   └── maritimeRoutes.js
 │   │
-│   ├── App.jsx              # Composant d'application racine
+│   ├── hooks/               # NOUVEAU : Hooks personnalisés
+│   │   └── useTouchGestures.jsx
+│   │
+│   ├── App.jsx              # Composant racine
 │   ├── main.jsx             # Point d'entrée
-│   └── index.css            # Styles globaux
+│   └── index.css            # Styles globaux mobile-first
 │
 ├── readme-assets/           # Graphiques de documentation
-├── index.html               # Modèle HTML
-├── vite.config.js           # Configuration de compilation
+├── mobile-screenshots.html  # NOUVEAU : Présentation interface mobile
+├── MOBILE_IMPROVEMENTS.md   # NOUVEAU : Documentation mobile détaillée
+├── index.html               # Template HTML activé PWA
+├── vite.config.js           # Configuration de build
 └── package.json             # Manifeste des dépendances
 ```
 
 ---
 
-## 🎓 Utilisation Éducative et Démonstrative
+## 🎓 Utilisation Éducative et de Démonstration
 
-Cette plateforme démontre les capacités de visualisation d'intelligence en temps réel au niveau entreprise. Conçue pour l'exploration éducative de :
+Cette plateforme démontre des capacités de visualisation de renseignement en temps réel de niveau entreprise. Conçue pour l'exploration éducative de :
 
 - Modèles React avancés et optimisation des performances
-- Techniques de visualisation Web WebGL et 3D
+- Techniques de visualisation 3D et WebGL
 - Architecture de streaming de données en temps réel
-- UI/UX haute fidélité pour les centres de commandement
+- UI/UX haute fidélité pour centres de commandement
 - Méthodologie de visualisation de données géospatiales
+- **Modèles de design responsive mobile-first**
+- **Reconnaissance de gestes tactiles et retour haptique**
+- **Implémentation Progressive Web App (PWA)**
 
 ---
 
 ## 📄 Licence et Attribution
 
-Créé à des fins de démonstration et d'éducation.
+Créé à des fins de démonstration et éducatives
+
+### Points Forts du Développement Mobile
+
+- ✅ Design entièrement responsive (320px - 2560px+)
+- ✅ Interactions optimisées pour le tactile
+- ✅ Intégration de retour haptique
+- ✅ Support des zones de sécurité (appareils encoche)
+- ✅ Effets d'interface glass morphism
+- ✅ Performances optimisées pour mobile
+- ✅ Balises meta prêtes pour PWA
 
 <div align="center">
 
-**Pour les demandes** : Consultez les problèmes du dépôt ou la documentation
+**Pour toute demande** : Consulter les issues du dépôt ou la documentation
+
+**Documentation Mobile** : [MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)
 
 </div>
+
+---
+
+## 📖 Documentation Additionnelle
+
+- **[MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)** - Documentation complète de responsivité mobile
+- **[mobile-screenshots.html](mobile-screenshots.html)** - Présentation interactive de l'interface mobile
+- **README.md** - Documentation en anglais
+- **README.es.md** - Documentation en espagnol
+- **README.zh.md** - Documentation en chinois

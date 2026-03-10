@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>PALANTIR DEMO - Mobile Screenshots</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #e2e8f0;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 60px; }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #f43f5e, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle { color: #94a3b8; font-size: 1.1rem; }
+        .screenshots-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        .screenshot-card {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 20px;
+            overflow: hidden;
+            backdrop-filter: blur(20px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .screenshot-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(6, 182, 212, 0.2);
+        }
+        .phone-frame {
+            background: #000;
+            border-radius: 16px;
+            padding: 12px;
+            margin: 20px;
+            border: 3px solid #334155;
+        }
+        .phone-screen {
+            background: #020617;
+            border-radius: 8px;
+            overflow: hidden;
+            aspect-ratio: 9/19.5;
+            position: relative;
+        }
+        .screen-placeholder {
+            width: 100%; height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+            padding: 20px;
+            text-align: center;
+        }
+        .screen-placeholder .icon { font-size: 3rem; margin-bottom: 15px; }
+        .screen-placeholder h3 { font-size: 1rem; font-weight: 600; color: #e2e8f0; margin-bottom: 8px; }
+        .screen-placeholder p { font-size: 0.75rem; color: #64748b; line-height: 1.5; }
+        .card-info {
+            padding: 20px;
+            border-top: 1px solid rgba(148, 163, 184, 0.2);
+        }
+        .card-info h3 { font-size: 1.1rem; font-weight: 700; color: #f1f5f9; margin-bottom: 8px; }
+        .card-info p { font-size: 0.875rem; color: #94a3b8; line-height: 1.6; }
+        .features-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+        .feature-tag {
+            background: rgba(6, 182, 212, 0.15);
+            color: #22d3ee;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .feature-tag.purple { background: rgba(192, 38, 211, 0.15); color: #e879f9; }
+        .feature-tag.orange { background: rgba(249, 115, 22, 0.15); color: #fb923c; }
+        .feature-tag.rose { background: rgba(244, 63, 94, 0.15); color: #fb7185; }
+        .instructions {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            border-radius: 16px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        .instructions h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #f1f5f9;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .instructions ol { padding-left: 20px; color: #cbd5e1; line-height: 2; }
+        .instructions li { margin-bottom: 10px; }
+        .instructions code {
+            background: rgba(6, 182, 212, 0.15);
+            color: #22d3ee;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PALANTIR DEMO - Mobile Screenshots</h1>
+            <p class="subtitle">Responsive Mobile Interface Showcase</p>
+        </header>
+        <div class="screenshots-grid">
+            <div class="screenshot-card">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="screen-placeholder">
+                            <div class="icon">🌍</div>
+                            <h3>Mobile Home View</h3>
+                            <p>3D Globe with touch controls, compact header, and quick stats bar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Home Screen</h3>
+                    <p>Main interface with interactive globe, live data visualization, and mobile-optimized controls</p>
+                    <div class="features-list">
+                        <span class="feature-tag">Touch Globe</span>
+                        <span class="feature-tag rose">Live Data</span>
+                        <span class="feature-tag purple">Haptic</span>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshot-card">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="screen-placeholder">
+                            <div class="icon">📋</div>
+                            <h3>Layer Menu</h3>
+                            <p>Slide-out navigation with toggle controls for all data layers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Navigation Drawer</h3>
+                    <p>Full-height slide-out menu with layer toggles, connection status, and glass morphism design</p>
+                    <div class="features-list">
+                        <span class="feature-tag">Slide-out</span>
+                        <span class="feature-tag orange">Toggles</span>
+                        <span class="feature-tag">Glass UI</span>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshot-card">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="screen-placeholder">
+                            <div class="icon">📰</div>
+                            <h3>Intel Feed</h3>
+                            <p>Bottom sheet drawer with live threat intelligence updates</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>News Feed Drawer</h3>
+                    <p>Swipe-up bottom sheet showing real-time geopolitical threats with severity indicators</p>
+                    <div class="features-list">
+                        <span class="feature-tag rose">Live Feed</span>
+                        <span class="feature-tag">Swipe Up</span>
+                        <span class="feature-tag purple">Bottom Sheet</span>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshot-card">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="screen-placeholder">
+                            <div class="icon">⚠️</div>
+                            <h3>Event Details</h3>
+                            <p>Fullscreen modal with detailed event information and sources</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Event Detail Modal</h3>
+                    <p>Fullscreen mobile modal showing comprehensive event data, coordinates, and external links</p>
+                    <div class="features-list">
+                        <span class="feature-tag">Fullscreen</span>
+                        <span class="feature-tag orange">Details</span>
+                        <span class="feature-tag">Links</span>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshot-card">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="screen-placeholder">
+                            <div class="icon">📹</div>
+                            <h3>Live Camera</h3>
+                            <p>Fullscreen video with touch zones for camera switching</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Video Modal</h3>
+                    <p>Immersive fullscreen video player with swipe gestures to switch between 60+ live cameras</p>
+                    <div class="features-list">
+                        <span class="feature-tag purple">Fullscreen</span>
+                        <span class="feature-tag rose">Live</span>
+                        <span class="feature-tag">Swipe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshot-card">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="screen-placeholder">
+                            <div class="icon">📊</div>
+                            <h3>Market Data</h3>
+                            <p>Horizontal scrolling ticker with real-time prices</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Market Tickers</h3>
+                    <p>Touch-drag horizontal scrolling market data with auto-scroll and percentage changes</p>
+                    <div class="features-list">
+                        <span class="feature-tag orange">Scroll</span>
+                        <span class="feature-tag rose">Real-time</span>
+                        <span class="feature-tag">Auto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instructions">
+            <h2>How to Capture Actual Screenshots</h2>
+            <ol>
+                <li>Open Chrome DevTools with F12 or Cmd+Option+I</li>
+                <li>Click the device toggle icon or press Cmd+Shift+M</li>
+                <li>Select a device preset (iPhone 14 Pro, Pixel 7, etc.)</li>
+                <li>Navigate through the app to each screen state</li>
+                <li>Capture with Cmd+Shift+P then "Capture screenshot"</li>
+                <li>Save images to readme-assets/ folder</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

@@ -10,6 +10,7 @@
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white&style=flat-square)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev)
 [![THREE.js](https://img.shields.io/badge/Three.js-globe-black?style=flat-square)](https://threejs.org)
+[![Mobile](https://img.shields.io/badge/Mobile-Responsive-green?style=flat-square)](MOBILE_IMPROVEMENTS.md)
 
 </div>
 
@@ -18,6 +19,15 @@
 ## 🎯 Mission Brief
 
 PALANTIR DEMO is an enterprise-grade intelligence visualization platform providing real-time situational awareness across geopolitical, environmental, and logistical dimensions. Built for operational excellence and rapid decision-making.
+
+### 🆕 Now Fully Mobile Responsive!
+
+The platform now delivers an immersive, native app-like experience on mobile devices with:
+- 📱 Touch-optimized interface with haptic feedback
+- 🎮 Swipe gestures for intuitive navigation
+- 📲 Fullscreen mobile modals and bottom sheets
+- 🌐 Slide-out navigation with layer controls
+- ⚡ Real-time data optimized for mobile networks
 
 ### Intelligence Domains
 
@@ -48,18 +58,53 @@ PALANTIR DEMO is an enterprise-grade intelligence visualization platform providi
 - Multi-layered data overlay system
 - Interactive drill-down capabilities for detailed analysis
 - Seamless globe rotation and zoom navigation
+- **Mobile:** Touch-optimized controls with haptic feedback
 
 **Advanced Event Intelligence**
 - Real-time event detection and classification
 - Contextual information panels with metadata
 - Historical threat analysis and pattern recognition
 - Automated risk scoring algorithms
+- **Mobile:** Fullscreen detail modals with external links
 
 **Operational Command Features**
 - War room aesthetic with professional dark-mode interface
 - High-contrast design for extended operational sessions
 - Responsive layout for multi-monitor deployments
 - Touch-enabled for tactical command centers
+- **Mobile:** Slide-out menus, bottom sheets, swipe gestures
+
+---
+
+## 📱 Mobile Experience
+
+### Touch Gestures
+
+| Gesture | Action |
+|---------|--------|
+| **Swipe Left/Right** | Switch live cameras (when video modal open) |
+| **Swipe Down** | Close news feed drawer |
+| **Tap** | Select events, open details |
+| **Pinch** | Zoom globe |
+| **Drag** | Rotate globe |
+| **Long Press** | Context menu (coming soon) |
+
+### Mobile Interface Features
+
+- **Slide-out Navigation** - Full-height drawer with layer toggles
+- **Bottom Quick Stats** - Real-time counts for threats, quakes, flights, ships
+- **Horizontal Tickers** - Scrollable market data with auto-scroll
+- **Bottom Sheet Drawer** - Swipe-up news feed with live intel
+- **Fullscreen Video** - Immersive camera viewing with touch zones
+- **Haptic Feedback** - Tactile response for all interactions
+
+<div align="center">
+
+![Mobile Screenshots](mobile-screenshots.html)
+
+*Open [mobile-screenshots.html](mobile-screenshots.html) for detailed mobile interface showcase*
+
+</div>
 
 ---
 
@@ -97,6 +142,17 @@ npm run deploy
 | **npm** | Latest version |
 | **Browser** | Modern (Chrome, Firefox, Safari, Edge) |
 | **GPU** | Recommended for optimal performance |
+| **Mobile** | iOS 14+ / Android 10+ recommended |
+
+### Mobile Browser Support
+
+| Platform | Browser | Support |
+|----------|---------|---------|
+| **iOS** | Safari | ✅ Full |
+| **iOS** | Chrome | ✅ Full |
+| **Android** | Chrome | ✅ Full |
+| **Android** | Firefox | ✅ Full |
+| **Android** | Samsung Internet | ✅ Full |
 
 ### Cloud Deployment
 
@@ -130,18 +186,32 @@ UI Components           Lucide-React
 State Management        React Hooks
 Build System            Vite 6
 Simulation Engine       Custom High-Performance
+Mobile Gestures         Custom Touch Hook
+Haptic Feedback         Navigator Vibration API
 ```
 
 ### Component Architecture
 
-| Component | Function |
-|-----------|----------|
-| **GlobeComponent** | 3D visualization engine and viewport management |
-| **Dashboard** | Main operational interface and layout |
-| **EventDetailModal** | Deep-dive analysis for individual events |
-| **MarketTickers** | Real-time data feeds and market indicators |
-| **NewsFeed** | Intelligence bulletin aggregation system |
-| **VideoModal** | Surveillance feed integration and playback |
+| Component | Function | Mobile Enhancement |
+|-----------|----------|-------------------|
+| **GlobeComponent** | 3D visualization engine | Touch-optimized controls, larger markers |
+| **Dashboard** | Main operational interface | Responsive layout, mobile header |
+| **MobileMenu** | Slide-out navigation | Layer toggles, glass morphism |
+| **EventDetailModal** | Deep-dive analysis | Fullscreen mobile modal |
+| **MarketTickers** | Real-time data feeds | Horizontal scrolling ticker |
+| **NewsFeed** | Intelligence bulletin | Bottom sheet drawer |
+| **VideoModal** | Surveillance feed | Fullscreen with touch zones |
+
+### Mobile-Specific Files
+
+```
+src/
+├── components/
+│   └── MobileMenu.jsx         # Slide-out navigation drawer
+├── hooks/
+│   └── useTouchGestures.jsx   # Touch gesture handling
+└── index.css                   # Mobile-first responsive styles
+```
 
 ---
 
@@ -162,6 +232,19 @@ npm run dev
 ```
 
 Access at `http://localhost:5173` with live HMR updates.
+
+### Mobile Testing
+
+**Chrome DevTools:**
+1. Press `F12` or `Cmd+Option+I`
+2. Click device toggle or press `Cmd+Shift+M`
+3. Select device preset (iPhone 14 Pro, Pixel 7, iPad)
+4. Test touch gestures with mouse/touch simulation
+
+**Physical Device Testing:**
+1. Ensure device is on same network as development machine
+2. Access via `http://<your-ip>:5173`
+3. Test haptic feedback on supported devices
 
 ### Build Pipeline
 
@@ -186,24 +269,30 @@ npm run preview
 palantir-demo/
 ├── src/
 │   ├── components/          # React component modules
-│   │   ├── Dashboard.jsx
+│   │   ├── Dashboard.jsx    # Main layout (responsive)
 │   │   ├── GlobeComponent.jsx
 │   │   ├── EventDetailModal.jsx
 │   │   ├── MarketTickers.jsx
 │   │   ├── NewsFeed.jsx
-│   │   └── VideoModal.jsx
+│   │   ├── VideoModal.jsx
+│   │   └── MobileMenu.jsx   # NEW: Mobile navigation
 │   │
 │   ├── data/                # Data simulation engines
 │   │   ├── mockEngine.js
 │   │   ├── cameras.js
 │   │   └── maritimeRoutes.js
 │   │
+│   ├── hooks/               # NEW: Custom React hooks
+│   │   └── useTouchGestures.jsx
+│   │
 │   ├── App.jsx              # Root application component
 │   ├── main.jsx             # Entry point
-│   └── index.css            # Global styles
+│   └── index.css            # Mobile-first global styles
 │
 ├── readme-assets/           # Documentation graphics
-├── index.html               # HTML template
+├── mobile-screenshots.html  # NEW: Mobile interface showcase
+├── MOBILE_IMPROVEMENTS.md   # NEW: Detailed mobile docs
+├── index.html               # PWA-enabled HTML template
 ├── vite.config.js           # Build configuration
 └── package.json             # Dependencies manifest
 ```
@@ -219,6 +308,9 @@ This platform demonstrates enterprise-level real-time intelligence visualization
 - Real-time data streaming architecture
 - High-fidelity UI/UX for command centers
 - Geospatial data visualization methodology
+- **Mobile-first responsive design patterns**
+- **Touch gesture recognition and haptic feedback**
+- **Progressive Web App (PWA) implementation**
 
 ---
 
@@ -226,8 +318,30 @@ This platform demonstrates enterprise-level real-time intelligence visualization
 
 Created for demonstration and educational purposes
 
+### Mobile Development Highlights
+
+- ✅ Fully responsive design (320px - 2560px+)
+- ✅ Touch-optimized interactions
+- ✅ Haptic feedback integration
+- ✅ Safe area support (notched devices)
+- ✅ Glass morphism UI effects
+- ✅ Performance optimized for mobile
+- ✅ PWA-ready meta tags
+
 <div align="center">
 
 **For inquiries**: Check repository issues or documentation
 
+**Mobile Documentation**: [MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)
+
 </div>
+
+---
+
+## 📖 Additional Documentation
+
+- **[MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)** - Comprehensive mobile responsiveness documentation
+- **[mobile-screenshots.html](mobile-screenshots.html)** - Interactive mobile interface showcase
+- **README.es.md** - Spanish documentation
+- **README.fr.md** - French documentation  
+- **README.zh.md** - Chinese documentation
