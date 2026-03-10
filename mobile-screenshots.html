@@ -9,12 +9,20 @@
     <title>PALANTIR DEMO - Mobile Screenshots</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html {
+            touch-action: pinch-zoom;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
         body {
             font-family: 'Inter', -apple-system, sans-serif;
             background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
             min-height: 100vh;
             padding: 40px 20px;
             color: #e2e8f0;
+            touch-action: pinch-zoom;
+            -webkit-user-select: none;
+            user-select: none;
         }
         .container { max-width: 1400px; margin: 0 auto; }
         header { text-align: center; margin-bottom: 60px; }

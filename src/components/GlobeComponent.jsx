@@ -30,45 +30,55 @@ const GlobeComponent = ({
         const checkMobile = () => {
             const mobile = window.innerWidth < 768;
             setIsMobile(mobile);
-            setDimensions({ 
-                width: window.innerWidth, 
-                height: window.innerHeight 
+            setDimensions({
+                width: window.innerWidth,
+                height: window.innerHeight
             });
         };
-        
+
         checkMobile();
-        
+
         if (globeEl.current) {
             globeEl.current.controls().autoRotate = true;
             globeEl.current.controls().autoRotateSpeed = isMobile ? 0.3 : 0.5;
-            
+
             // Enhanced mobile controls
             const controls = globeEl.current.controls();
             controls.enableDamping = true;
             controls.dampingFactor = 0.05;
             controls.rotateSpeed = isMobile ? 0.8 : 0.5;
             controls.zoomSpeed = isMobile ? 1.2 : 0.8;
+            // Zoomed out further on mobile for better overview
             controls.minDistance = isMobile ? 120 : 100;
-            controls.maxDistance = isMobile ? 200 : 180;
+            controls.maxDistance = isMobile ? 300 : 180;
+            
+            // Set initial camera position - zoomed out further on mobile
+            const initialDistance = isMobile ? 220 : 140;
+            globeEl.current.pointOfView({ lat: 20, lng: 0, altitude: initialDistance }, 0);
         }
 
         const handleResize = () => {
             const mobile = window.innerWidth < 768;
             setIsMobile(mobile);
-            setDimensions({ 
-                width: window.innerWidth, 
-                height: window.innerHeight 
+            setDimensions({
+                width: window.innerWidth,
+                height: window.innerHeight
             });
-            
+
             if (globeEl.current) {
                 const controls = globeEl.current.controls();
                 controls.rotateSpeed = mobile ? 0.8 : 0.5;
                 controls.zoomSpeed = mobile ? 1.2 : 0.8;
+                // Zoomed out further on mobile for better overview
                 controls.minDistance = mobile ? 120 : 100;
-                controls.maxDistance = mobile ? 200 : 180;
+                controls.maxDistance = mobile ? 300 : 180;
+                
+                // Update initial camera position on resize
+                const initialDistance = mobile ? 220 : 140;
+                globeEl.current.pointOfView({ lat: 20, lng: 0, altitude: initialDistance }, 1000);
             }
         };
-        
+
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);

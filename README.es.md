@@ -1,306 +1,422 @@
-# ⚛️ PALANTIR DEMO
-## Plataforma de Inteligencia Global en Tiempo Real
+# 🌍 PALANTIR DEMO
+### Plataforma de Inteligencia Global en Tiempo Real
 
 <div align="center">
 
-![Pantalla 1](readme-assets/screen-1.png)
-
-**Sistema avanzado de monitoreo geopolítico y evaluación de amenazas mundial**
-
+[![Demo en Vivo](https://img.shields.io/badge/🚀-DEMO%20EN%20VIVO-green?style=for-the-badge)](https://lluisagusti.github.io/palantir-demo/)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white&style=flat-square)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev)
-[![THREE.js](https://img.shields.io/badge/Three.js-globe-black?style=flat-square)](https://threejs.org)
-[![Móvil](https://img.shields.io/badge/Móvil-Responsive-green?style=flat-square)](MOBILE_IMPROVEMENTS.md)
+[![Móvil](https://img.shields.io/badge/Móvil-Responsive-green?style=flat-square)](https://lluisagusti.github.io/palantir-demo/)
+[![Tiempo-Real](https://img.shields.io/badge/Tiempo%20Real-Datos-blue?style=flat-square)](https://lluisagusti.github.io/palantir-demo/)
+
+**🎯 Experimenta el futuro de la inteligencia geopolítica**
+
+[**→ INICIAR DEMO EN VIVO ←**](https://lluisagusti.github.io/palantir-demo/)
+
+![Banner Principal](readme-assets/screen-1.png)
+
+*Conciencia situacional global al alcance de tu mano*
 
 </div>
 
 ---
 
-## 🎯 Descripción de la Misión
+## 🎬 Lo Que Experimentarás
 
-PALANTIR DEMO es una plataforma de visualización de inteligencia de nivel empresarial que proporciona conciencia situacional en tiempo real en dimensiones geopolíticas, ambientales y logísticas. Construida para excelencia operativa y toma rápida de decisiones.
+<div align="center">
 
-### 🆕 ¡Ahora Totalmente Responsivo para Móviles!
+### 🌐 Globo 3D Interactivo
+**Mira el mundo respirar en tiempo real**
 
-La plataforma ahora ofrece una experiencia inmersiva tipo aplicación nativa en dispositivos móviles con:
-- 📱 Interfaz optimizada para táctil con retroalimentación háptica
-- 🎮 Gestos de deslizamiento para navegación intuitiva
-- 📲 Modales de pantalla completa y hojas inferiores
-- 🌐 Navegación deslizante con controles de capas
-- ⚡ Datos en tiempo real optimizados para redes móviles
+![Globo Interactivo](readme-assets/screen-2.png)
 
-### Dominios de Inteligencia
+- ✈️ **200+ Vuelos en Vivo** rastreando el espacio aéreo global
+- 🚢 **60+ Buques Marítimos** navegando aguas internacionales
+- 🌋 **Amenazas Ambientales** - terremotos, volcanes, radiación
+- ⚡ **Rayos** actualizándose cada 8 segundos
+- 📹 **60+ Cámaras en Vivo** desde ubicaciones icónicas
 
-| Dominio | Capacidades |
-|---------|------------|
-| **🔴 Evaluación de Amenazas Geopolíticas** | Monitoreo en tiempo real de zonas de conflicto, cuantificación de riesgos |
-| **🌋 Peligros Ambientales** | Actividad sísmica, eventos volcánicos, radiación atmosférica |
-| **✈️ Logística Global** | Seguimiento de vuelos en vivo, rutas marítimas, análisis de carga |
-| **⛅ Inteligencia Meteorológica** | Patrones climáticos, condiciones atmosféricas, eventos climáticos |
-| **📡 Vigilancia Electrónica** | Red de cámaras global, transmisión desde ubicaciones estratégicas |
+</div>
 
 ---
 
 ## 📱 Experiencia Móvil
 
-### Gestos Táctiles
-
-| Gesto | Acción |
-|-------|--------|
-| **Deslizar Izquierda/Derecha** | Cambiar cámaras en vivo |
-| **Deslizar Abajo** | Cerrar panel de noticias |
-| **Toque** | Seleccionar eventos, abrir detalles |
-| **Pellizcar** | Zoom del globo |
-| **Arrastrar** | Rotar globo |
-
-### Características de Interfaz Móvil
-
-- **Navegación Deslizante** - Panel de altura completa con interruptores de capas
-- **Estadísticas Rápidas** - Conteos en tiempo real en la parte inferior
-- **Tickers Horizontales** - Datos de mercado desplazables
-- **Panel Inferior** - Noticias con deslizamiento hacia arriba
-- **Video Pantalla Completa** - Visualización inmersiva de cámaras
-- **Retroalimentación Háptica** - Respuesta táctil para todas las interacciones
-
----
-
-## 📊 Descripción General del Panel
-
 <div align="center">
 
-![Pantalla 2](readme-assets/screen-2.png)
+### Tu Centro de Comando, Donde Quieras
 
-*Globo 3D interactivo con visualización de datos multicapa*
+| Característica | Escritorio | Móvil |
+|---------|---------|--------|
+| **Navegación** | Paneles laterales | 📱 Menú deslizante |
+| **Capas de Datos** | Controles checkbox | 🎛️ Interruptores |
+| **Feed de Noticias** | Panel fijo | 📰 Panel inferior |
+| **Modal de Video** | Ventana | 📹 Pantalla completa |
+| **Datos de Mercado** | Grid estático | ↔️ Scroll horizontal |
+| **Interacciones** | Clicks | 👆 Táctil + Háptico |
+
+**🎮 Gestos Táctiles:**
+- Deslizar ← → cambiar cámaras
+- Deslizar ↓ cerrar paneles
+- Pellizcar para zoom
+- Arrastrar para rotar
+- Toque para detalles
 
 </div>
 
-### Capacidades Principales
+---
 
-**Visualización Global Dinámica**
-- Renderizado de globo 3D de alto rendimiento con aceleración WebGL
-- Sistema de superposición de datos multicapa
-- Capacidades de exploración interactiva para análisis detallado
-- **Móvil:** Controles optimizados para táctil con retroalimentación háptica
+## 🎯 Dominios de Inteligencia
 
-**Inteligencia Avanzada de Eventos**
-- Detección y clasificación de eventos en tiempo real
-- Paneles de información contextual con metadatos
-- Análisis histórico de amenazas y reconocimiento de patrones
-- **Móvil:** Modales de detalles en pantalla completa con enlaces externos
+<div align="center">
+<table>
+<tr>
+<td align="center">
 
-**Características de Comando Operacional**
-- Estética de sala de guerra con interfaz profesional en modo oscuro
-- Diseño de alto contraste para sesiones operativas extendidas
-- Diseño responsivo para implementaciones en múltiples monitores
-- **Móvil:** Menús deslizantes, paneles inferiores, gestos de deslizamiento
+### 🔴 Evaluación de Amenazas
+
+![Amenazas](readme-assets/screen-3.png)
+
+Monitoreo de conflictos en tiempo real
+- Enfrentamientos fronterizos
+- Incidentes diplomáticos
+- Ciberataques
+- Movimientos militares
+
+**Niveles de Severidad 1-5**
+
+</td>
+<td align="center">
+
+### 🌋 Ambiental
+
+![Ambiente](readme-assets/screen-4.png)
+
+Seguimiento de peligros naturales
+- Actividad sísmica (40+ estaciones)
+- Erupciones volcánicas (8 activos)
+- Monitoreo de radiación
+- Detección de rayos
+
+**Actualizado Cada 15s**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+### ✈️ Logística Global
+
+![Logística](readme-assets/screen-2.png)
+
+Inteligencia de transporte
+- 200+ aeronaves mundial
+- 60+ buques marítimos
+- 8 rutas de envío principales
+- Actualizaciones de posición
+
+**Movimiento Cada 2-5s**
+
+</td>
+<td align="center">
+
+### 📡 Vigilancia en Vivo
+
+![Cámaras](readme-assets/screen-1.png)
+
+Red global de cámaras
+- 60+ transmisiones en vivo
+- Ubicaciones icónicas
+- Naturaleza y vida silvestre
+- Paisajes urbanos
+
+**Toque para Ver en Vivo**
+
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
-## 🚀 Implementación y Operaciones
+## 🎨 Showcase de la Interfaz
 
-### Inicio Rápido
+<div align="center">
+
+### Centro de Comando de Escritorio
+
+![Vista de Escritorio](readme-assets/screen-1.png)
+
+**Panel de inteligencia completo**
+- Diseño multi-panel
+- Flujos de datos simultáneos
+- Análisis detallado de eventos
+- Tickers de mercado
+- Feed de noticias
+
+---
+
+### Experiencia Móvil
+
+| Pantalla Principal | Menú de Capas | Panel de Noticias |
+|:-----------:|:----------:|:-----------:|
+| ![Inicio Móvil](readme-assets/screen-1.png) | ![Menú](readme-assets/screen-2.png) | ![Noticias](readme-assets/screen-3.png) |
+| Barra de estadísticas | 7 capas de datos | Feed deslizable |
+| Controles táctiles | Glass morphism | Actualizaciones en vivo |
+
+---
+
+### Detalles de Eventos
+
+![Modal de Evento](readme-assets/screen-4.png)
+
+**Análisis profundo de inteligencia**
+- Coordenadas y timestamps
+- Evaluación de severidad
+- Enlaces a fuentes externas
+- Contexto histórico
+
+</div>
+
+---
+
+## ⚡ Simulación de Datos en Tiempo Real
+
+<div align="center">
+
+| Tipo de Dato | Cantidad | Frecuencia de Actualización |
+|-----------|-------|------------------|
+| 🔴 Amenazas | 8-50 | Nuevo cada 8s |
+| 🌍 Terremotos | 40 | Actualiza cada 15s |
+| ✈️ Vuelos | 200 | Mueve cada 2s |
+| 🚢 Buques | 60 | Mueve cada 5s |
+| ⛅ Clima | 19 ciudades | Actualiza cada 30s |
+| ⚡ Rayos | 25 rayos | Actualiza cada 8s |
+| 📡 Radiación | 8 estaciones | Actualiza cada 20s |
+| 📊 Mercados | 5 tickers | Actualiza cada 3s |
+
+**Total de Elementos Activos: 400+**
+
+</div>
+
+---
+
+## 🚀 Inicio Rápido
+
+<div align="center">
+
+### Pruébalo Localmente
 
 ```bash
-# Instalación básica
-npm install
+# Clonar la plataforma de inteligencia
+git clone https://github.com/lluisagusti/palantir-demo.git
 
-# Implementación en desarrollo
+# Instalar dependencias
+cd palantir-demo && npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
-
-# Compilación de producción
-npm run build
-
-# Implementación en GitHub Pages
-npm run deploy
 ```
+
+**Acceder en:** `http://localhost:5173`
+
+---
 
 ### Requisitos del Sistema
 
-| Requisito | Especificación |
-|-----------|----------------|
-| **Node.js** | v20+ LTS |
-| **npm** | Última versión |
-| **Navegador** | Moderno (Chrome, Firefox, Safari, Edge) |
-| **GPU** | Recomendado para rendimiento óptimo |
-| **Móvil** | iOS 14+ / Android 10+ recomendado |
+| Componente | Requisito |
+|-----------|-------------|
+| **Navegador** | Chrome 90+, Firefox 88+, Safari 14+ |
+| **Móvil** | iOS 14+ / Android 10+ |
+| **Red** | Banda ancha para datos en vivo |
+| **GPU** | Recomendado para renderizado 3D |
 
-### Soporte de Navegadores Móviles
-
-| Plataforma | Navegador | Soporte |
-|------------|-----------|---------|
-| **iOS** | Safari | ✅ Completo |
-| **iOS** | Chrome | ✅ Completo |
-| **Android** | Chrome | ✅ Completo |
-| **Android** | Firefox | ✅ Completo |
-| **Android** | Samsung Internet | ✅ Completo |
-
-### Implementación en la Nube
-
-Configurar implementación en GitHub Pages:
-
-1. Navegar a **Settings** → **Pages** del repositorio
-2. Establecer fuente a **gh-pages branch** desde **root folder**
-3. Ejecutar `npm run deploy` para publicar
+</div>
 
 ---
 
-## ⚙️ Arquitectura Técnica
+## 🛠️ Stack Tecnológico
 
-### Stack Tecnológico
+<div align="center">
 
 ```
-Framework Frontend       React 19 (Vite)
-Visualización 3D         react-globe.gl (Three.js)
-Sistema de Estilos       Tailwind CSS 4.0
-Componentes UI           Lucide-React
-Gestión de Estado        React Hooks
-Sistema de Build         Vite 6
-Motor de Simulación      Personalizado
-Gestos Móviles           Custom Touch Hook
-Retroalimentación Háptica Navigator Vibration API
+┌─────────────────────────────────────────┐
+│  Frontend: React 19 + Vite 6            │
+│  Motor 3D: react-globe.gl + Three.js    │
+│  Estilos: Tailwind CSS 4.0              │
+│  Íconos: Lucide-React                   │
+│  Móvil: Gestos Táctiles + Hápticos      │
+└─────────────────────────────────────────┘
 ```
 
-### Arquitectura de Componentes
+**Optimizado para Rendimiento:**
+- Animaciones aceleradas por GPU
+- Re-renders eficientes
+- Diseño mobile-first
+- Interacciones táctiles optimizadas
 
-| Componente | Función | Mejora Móvil |
-|------------|---------|--------------|
-| **GlobeComponent** | Motor de visualización 3D | Controles táctiles, marcadores grandes |
-| **Dashboard** | Interfaz operacional principal | Diseño responsivo, header móvil |
-| **MobileMenu** | Navegación deslizante | Interruptores de capas |
-| **EventDetailModal** | Análisis detallado | Modal pantalla completa |
-| **MarketTickers** | Datos en tiempo real | Ticker desplazable horizontal |
-| **NewsFeed** | Boletín de inteligencia | Panel inferior deslizante |
-| **VideoModal** | Transmisión de vigilancia | Pantalla completa con zonas táctiles |
+</div>
 
 ---
 
-## 🔧 Flujo de Desarrollo
+## 📊 Inmersión en Características
 
-### Desarrollo Local
+### 🌍 Visualización del Globo
 
-```bash
-# Clonar y configurar
-git clone <repository-url>
-cd palantir-demo
+**Superposición de Datos Multi-Capa:**
+1. **Anillos de Amenazas** - Alertas pulsantes para eventos geopolíticos
+2. **Rutas de Vuelo** - Arcos animados mostrando movimiento de aeronaves
+3. **Rutas Marítimas** - Principales rutas de envío con datos de tráfico
+4. **Íconos de Clima** - Condiciones en tiempo real en 19 ciudades
+5. **Marcadores de Cámara** - Ubicaciones de streams en vivo
+6. **Monitores de Radiación** - Lecturas CPM con indicadores de alerta
 
-# Instalar dependencias
-npm install
-
-# Iniciar servidor de desarrollo con HMR
-npm run dev
-```
-
-Acceder en `http://localhost:5173` con actualizaciones HMR en vivo.
-
-### Pruebas Móviles
-
-**Chrome DevTools:**
-1. Presionar `F12` o `Cmd+Option+I`
-2. Click en ícono de dispositivo o presionar `Cmd+Shift+M`
-3. Seleccionar dispositivo (iPhone 14 Pro, Pixel 7, iPad)
-4. Probar gestos táctiles con simulación de mouse/táctil
-
-**Dispositivo Físico:**
-1. Asegurar que el dispositivo esté en la misma red
-2. Acceder vía `http://<tu-ip>:5173`
-3. Probar retroalimentación háptica en dispositivos compatibles
-
-### Pipeline de Build
-
-```bash
-# Optimización de producción
-npm run build
-
-# Salida: directorio dist/ listo para implementación
-```
-
-### Vista Previa de Build de Producción
-
-```bash
-npm run preview
-```
+**Elementos Interactivos:**
+- Click en cualquier marcador para detalles
+- Arrastrar para rotar el globo
+- Scroll/pellizcar para zoom
+- Auto-rotación cuando está inactivo
 
 ---
 
-## 📋 Estructura del Proyecto
+### 📹 Red de Cámaras en Vivo
 
-```
-palantir-demo/
-├── src/
-│   ├── components/          # Módulos de componentes React
-│   │   ├── Dashboard.jsx    # Diseño principal (responsivo)
-│   │   ├── GlobeComponent.jsx
-│   │   ├── EventDetailModal.jsx
-│   │   ├── MarketTickers.jsx
-│   │   ├── NewsFeed.jsx
-│   │   ├── VideoModal.jsx
-│   │   └── MobileMenu.jsx   # NUEVO: Navegación móvil
-│   │
-│   ├── data/                # Motores de simulación de datos
-│   │   ├── mockEngine.js
-│   │   ├── cameras.js
-│   │   └── maritimeRoutes.js
-│   │
-│   ├── hooks/               # NUEVO: Hooks personalizados
-│   │   └── useTouchGestures.jsx
-│   │
-│   ├── App.jsx              # Componente raíz
-│   ├── main.jsx             # Punto de entrada
-│   └── index.css            # Estilos globales mobile-first
-│
-├── readme-assets/           # Gráficos de documentación
-├── mobile-screenshots.html  # NUEVO: Showcase de interfaz móvil
-├── MOBILE_IMPROVEMENTS.md   # NUEVO: Documentación móvil detallada
-├── index.html               # Plantilla HTML habilitada para PWA
-├── vite.config.js           # Configuración de build
-└── package.json             # Manifiesto de dependencias
-```
+**60+ Ubicaciones Incluyendo:**
+
+| Categoría | Ejemplos |
+|----------|----------|
+| 🏙️ Ciudades | Times Square, Shibuya Crossing, Venecia |
+| 🌋 Naturaleza | Yellowstone, Amazonia, Cataratas del Niágara |
+| 🦁 Vida Silvestre | Nidos de águilas, Osos, Vida marina |
+| 🏛️ Monumentos | Estatua de la Libertad, Ópera de Sídney |
+| 🛰️ Espacio | ISS vista de la Tierra |
+
+**Características:**
+- Integración con YouTube
+- Deslizar para cambiar canales
+- Vista en pantalla completa móvil
+- Metadatos de ubicación
 
 ---
 
-## 🎓 Uso Educativo y de Demostración
+### 📈 Inteligencia de Mercado
 
-Esta plataforma demuestra capacidades de visualización de inteligencia en tiempo real a nivel empresarial. Diseñada para exploración educativa de:
+**Commodities Rastreados:**
 
-- Patrones avanzados de React y optimización de rendimiento
-- Técnicas de visualización 3D y WebGL
-- Arquitectura de streaming de datos en tiempo real
-- UI/UX de alta fidelidad para centros de comando
-- Metodología de visualización de datos geoespaciales
-- **Patrones de diseño responsivo mobile-first**
-- **Reconocimiento de gestos táctiles y retroalimentación háptica**
-- **Implementación de Progressive Web App (PWA)**
+```
+LMT (Lockheed Martin)    $430.36  ▲
+RTX (RTX Corp)           $86.78   ▼
+NOC (Northrop Grumman)   $477.44  ▲
+CL (Petróleo WTI)        $77.40   ▼
+BZ (Petróleo Brent)      $79.62   ▲
+```
+
+Simulación de precios en tiempo real con:
+- Cambios porcentuales en vivo
+- Indicadores de tendencia
+- Ticker con scroll automático en móvil
+
+---
+
+## 🎓 Casos de Uso
+
+### Educativo
+- Geografía y geopolítica
+- Visualización de datos
+- Sistemas en tiempo real
+- Patrones de React
+
+### Demostración
+- Capacidades WebGL
+- Responsividad móvil
+- Manejo de gestos táctiles
+- Optimización de rendimiento
+
+### Portafolio
+- Desarrollo full-stack
+- Diseño UI/UX
+- Visualización 3D
+- Enfoque mobile-first
+
+---
+
+## 📖 Documentación
+
+<div align="center">
+
+| Documento | Descripción |
+|----------|-------------|
+| [📱 Mejoras Móviles](MOBILE_IMPROVEMENTS.md) | Guía completa de desarrollo móvil |
+| [📸 Showcase de Capturas](mobile-screenshots.html) | Demo interactiva móvil |
+| [🇬🇧 English](README.md) | English documentation |
+| [🇫🇷 Français](README.fr.md) | Documentation française |
+| [🇨🇳 中文](README.zh.md) | 中文文档 |
+
+</div>
+
+---
+
+## 🎯 Qué Hace Esto Especial
+
+<div align="center">
+
+### 🔥 Aspectos Destacados
+
+✅ **400+ Elementos en Tiempo Real** - Todos actualizándose simultáneamente  
+✅ **60+ Cámaras en Vivo** - De todo el mundo  
+✅ **Hápticos Móviles** - Retroalimentación táctil  
+✅ **Gestos Táctiles** - Controles intuitivos de deslizamiento  
+✅ **Glass Morphism** - Estética UI moderna  
+✅ **Sin Backend** - Simulación 100% cliente  
+✅ **PWA Listo** - Aplicación web instalable  
+✅ **Totalmente Responsivo** - 320px a 2560px+  
+
+</div>
+
+---
+
+## 🌟 Probar el Demo
+
+<div align="center">
+
+### ¿Listo para Experimentar?
+
+[![Iniciar Demo](https://img.shields.io/badge/🚀-INICIAR%20DEMO-green?style=for-the-badge&logo=rocket)](https://lluisagusti.github.io/palantir-demo/)
+
+**https://lluisagusti.github.io/palantir-demo/**
+
+1. Click en el enlace de arriba
+2. Espera 5 segundos para inicialización de datos
+3. Comienza a explorar el globo
+4. Click en marcadores para detalles
+5. Toca íconos de cámara para streams en vivo
+6. Desliza para navegar (móvil)
+
+**Consejos Pro:**
+- Deja que el globo rote automáticamente para el efecto completo
+- Prueba la vista móvil para la mejor experiencia
+- Mira los tickers de mercado actualizarse en vivo
+- Desliza a través de cámaras en pantalla completa
+
+</div>
 
 ---
 
 ## 📄 Licencia y Atribución
 
-Creado con fines de demostración y educativos
-
-### Aspectos Destacados del Desarrollo Móvil
-
-- ✅ Diseño totalmente responsivo (320px - 2560px+)
-- ✅ Interacciones optimizadas para táctil
-- ✅ Integración de retroalimentación háptica
-- ✅ Soporte de área segura (dispositivos con notch)
-- ✅ Efectos de interfaz glass morphism
-- ✅ Rendimiento optimizado para móviles
-- ✅ Meta tags listos para PWA
-
 <div align="center">
 
-**Para consultas**: Revisar issues del repositorio o documentación
+Creado con fines de **demostración y educativos**
 
-**Documentación Móvil**: [MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)
+Construido con ❤️ usando React, Three.js y tecnologías web modernas
 
-</div>
+**¿Preguntas?** [Abrir un Issue](https://github.com/lluisagusti/palantir-demo/issues)
 
 ---
 
-## 📖 Documentación Adicional
+### 🎯 ¡No Solo Lo Leas - Experiméntalo!
 
-- **[MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)** - Documentación completa de responsividad móvil
-- **[mobile-screenshots.html](mobile-screenshots.html)** - Showcase interactivo de interfaz móvil
-- **README.md** - Documentación en inglés
-- **README.fr.md** - Documentación en francés
-- **README.zh.md** - Documentación en chino
+[![Probar Demo en Vivo](https://img.shields.io/badge/🌍-PROBAR%20DEMO%20EN%20VIVO-blue?style=for-the-badge&logo=google-chrome)](https://lluisagusti.github.io/palantir-demo/)
+
+**https://lluisagusti.github.io/palantir-demo/**
+
+</div>

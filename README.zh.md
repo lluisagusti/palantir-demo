@@ -1,306 +1,422 @@
-# ⚛️ PALANTIR DEMO
-## 实时全球情报平台
+# 🌍 PALANTIR DEMO
+### 实时全球情报平台
 
 <div align="center">
 
-![屏幕 1](readme-assets/screen-1.png)
-
-**先进的地缘政治监测和全球威胁评估系统**
-
+[![现场演示](https://img.shields.io/badge/🚀-现场演示-green?style=for-the-badge)](https://lluisagusti.github.io/palantir-demo/)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white&style=flat-square)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev)
-[![THREE.js](https://img.shields.io/badge/Three.js-globe-black?style=flat-square)](https://threejs.org)
-[![移动](https://img.shields.io/badge/移动 - 响应式-green?style=flat-square)](MOBILE_IMPROVEMENTS.md)
+[![移动](https://img.shields.io/badge/移动 - 响应式-green?style=flat-square)](https://lluisagusti.github.io/palantir-demo/)
+[![实时](https://img.shields.io/badge/实时 - 数据-blue?style=flat-square)](https://lluisagusti.github.io/palantir-demo/)
+
+**🎯 体验地缘政治情报的未来**
+
+[**→ 启动现场演示 ←**](https://lluisagusti.github.io/palantir-demo/)
+
+![主横幅](readme-assets/screen-1.png)
+
+*全球态势感知触手可及*
 
 </div>
 
 ---
 
-## 🎯 任务简介
+## 🎬 您将体验到的
 
-PALANTIR DEMO 是一个企业级情报可视化平台，提供跨地缘政治、环境和后勤维度的实时态势感知。为卓越运营和快速决策而构建。
+<div align="center">
 
-### 🆕 现在完全支持移动端响应！
+### 🌐 交互式 3D 地球仪
+**见证实时呼吸的世界**
 
-该平台现在在移动设备上提供沉浸式的原生应用体验，包括：
-- 📱 针对触控优化的界面，带有触觉反馈
-- 🎮 用于直观导航的手势滑动
-- 📲 全屏模态框和底部面板
-- 🌐 带有图层控制的滑动导航
-- ⚡ 针对移动网络优化的实时数据
+![交互式地球仪](readme-assets/screen-2.png)
 
-### 情报领域
+- ✈️ **200+ 实时航班** 追踪全球空域
+- 🚢 **60+ 海事船只** 航行于国际水域
+- 🌋 **环境危害** - 地震、火山、辐射
+- ⚡ **闪电** 每 8 秒更新
+- 📹 **60+ 实时摄像头** 来自全球标志性地
 
-| 领域 | 能力 |
-|------|------|
-| **🔴 地缘政治威胁评估** | 实时冲突区监测、风险量化、战略热点追踪 |
-| **🌋 环境危害** | 地震活动、火山事件、大气辐射、闪电检测 |
-| **✈️ 全球物流** | 实时航班跟踪、海事路线可视化、货流分析 |
-| **⛅ 气象情报** | 天气模式分析、大气条件、气候事件关联 |
-| **📡 电子监控** | 全球摄像头网络集成、战略位置流、侦察源 |
+</div>
 
 ---
 
 ## 📱 移动体验
 
-### 触控手势
-
-| 手势 | 操作 |
-|------|------|
-| **左右滑动** | 切换直播摄像头 |
-| **向下滑动** | 关闭新闻推送 |
-| **点击** | 选择事件、打开详情 |
-| **捏合** | 地球仪缩放 |
-| **拖动** | 地球仪旋转 |
-
-### 移动界面功能
-
-- **滑动导航** - 全高抽屉式图层切换
-- **快速统计** - 底部实时计数显示
-- **横向滚动** - 可滚动的市场数据
-- **底部面板** - 向上滑动显示新闻
-- **全屏视频** - 沉浸式摄像头观看
-- **触觉反馈** - 所有交互的触觉响应
-
----
-
-## 📊 仪表板概述
-
 <div align="center">
 
-![屏幕 2](readme-assets/screen-2.png)
+### 您的指挥中心，随时随地
 
-*交互式 3D 地球仪与多层数据可视化*
+| 功能 | 桌面端 | 移动端 |
+|---------|---------|--------|
+| **导航** | 侧边栏面板 | 📱 滑动菜单 |
+| **数据层** | 复选框控制 | 🎛️ 切换开关 |
+| **新闻推送** | 固定面板 | 📰 底部面板 |
+| **视频模态** | 窗口化 | 📹 全屏沉浸式 |
+| **市场数据** | 静态网格 | ↔️ 横向滚动 |
+| **交互** | 鼠标点击 | 👆 触控 + 触觉 |
+
+**🎮 触控手势:**
+- 左右滑动 ← → 切换摄像头
+- 向下滑动 ↓ 关闭面板
+- 捏合缩放
+- 拖动旋转
+- 点击查看详情
 
 </div>
 
-### 核心能力
+---
 
-**动态全球可视化**
-- 高性能 3D 地球仪渲染，WebGL 加速
-- 多层数据叠加系统
-- 交互式深入分析功能
-- **移动端：** 针对触控优化的控制，带触觉反馈
+## 🎯 情报领域
 
-**高级事件情报**
-- 实时事件检测和分类
-- 带元数据的上下文信息面板
-- 历史威胁分析和模式识别
-- **移动端：** 带外部链接的全屏详情模态框
+<div align="center">
+<table>
+<tr>
+<td align="center">
 
-**作战指挥功能**
-- 作战室美学，专业深色界面
-- 高对比度设计，适合长时间作战会话
-- 响应式布局，支持多显示器部署
-- **移动端：** 滑动菜单、底部面板、滑动手势
+### 🔴 威胁评估
+
+![威胁](readme-assets/screen-3.png)
+
+实时冲突监测
+- 边境冲突
+- 外交事件
+- 网络攻击
+- 军事调动
+
+**严重程度 1-5 级**
+
+</td>
+<td align="center">
+
+### 🌋 环境
+
+![环境](readme-assets/screen-4.png)
+
+自然灾害追踪
+- 地震活动（40+ 站点）
+- 火山喷发（8 个活跃）
+- 辐射监测
+- 闪电探测
+
+**每 15 秒更新**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+### ✈️ 全球物流
+
+![物流](readme-assets/screen-2.png)
+
+交通情报
+- 200+ 全球飞行器
+- 60+ 海事船只
+- 8 条主要航运路线
+- 实时位置更新
+
+**每 2-5 秒移动**
+
+</td>
+<td align="center">
+
+### 📡 实时监控
+
+![摄像头](readme-assets/screen-1.png)
+
+全球摄像头网络
+- 60+ 实时直播
+- 标志性地
+- 自然与野生动物
+- 城市景观
+
+**点击观看直播**
+
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
-## 🚀 部署和操作
+## 🎨 界面展示
 
-### 快速启动
+<div align="center">
+
+### 桌面指挥中心
+
+![桌面视图](readme-assets/screen-1.png)
+
+**完整情报仪表板**
+- 多面板布局
+- 同步数据流
+- 详细事件分析
+- 市场行情
+- 新闻推送
+
+---
+
+### 移动体验
+
+| 主屏幕 | 图层菜单 | 新闻面板 |
+|:-----------:|:----------:|:-----------:|
+| ![移动主页](readme-assets/screen-1.png) | ![菜单](readme-assets/screen-2.png) | ![新闻](readme-assets/screen-3.png) |
+| 快速统计栏 | 7 个数据层 | 可滑动推送 |
+| 触控优化 | 玻璃形态 | 实时更新 |
+
+---
+
+### 事件详情
+
+![事件模态](readme-assets/screen-4.png)
+
+**深度情报分析**
+- 坐标和时间戳
+- 严重性评估
+- 外部来源链接
+- 历史背景
+
+</div>
+
+---
+
+## ⚡ 实时数据模拟
+
+<div align="center">
+
+| 数据类型 | 数量 | 更新频率 |
+|-----------|-------|------------------|
+| 🔴 威胁 | 8-50 | 每 8 秒新增 |
+| 🌍 地震 | 40 | 每 15 秒更新 |
+| ✈️ 航班 | 200 | 每 2 秒移动 |
+| 🚢 船只 | 60 | 每 5 秒移动 |
+| ⛅ 天气 | 19 城市 | 每 30 秒更新 |
+| ⚡ 闪电 | 25 次 | 每 8 秒更新 |
+| 📡 辐射 | 8 站点 | 每 20 秒更新 |
+| 📊 市场 | 5 行情 | 每 3 秒更新 |
+
+**活跃元素总数：400+**
+
+</div>
+
+---
+
+## 🚀 快速启动
+
+<div align="center">
+
+### 本地测试
 
 ```bash
-# 基础设置
-npm install
+# 克隆情报平台
+git clone https://github.com/lluisagusti/palantir-demo.git
 
-# 开发部署
+# 安装依赖
+cd palantir-demo && npm install
+
+# 启动开发服务器
 npm run dev
-
-# 生产构建
-npm run build
-
-# GitHub Pages 部署
-npm run deploy
 ```
+
+**访问:** `http://localhost:5173`
+
+---
 
 ### 系统要求
 
-| 要求 | 规格 |
-|------|------|
-| **Node.js** | v20+ LTS |
-| **npm** | 最新版本 |
-| **浏览器** | 现代浏览器（Chrome、Firefox、Safari、Edge） |
-| **GPU** | 推荐以获得最佳性能 |
-| **移动** | 推荐 iOS 14+ / Android 10+ |
+| 组件 | 要求 |
+|-----------|-------------|
+| **浏览器** | Chrome 90+, Firefox 88+, Safari 14+ |
+| **移动** | iOS 14+ / Android 10+ |
+| **网络** | 宽带用于实时数据 |
+| **GPU** | 推荐用于 3D 渲染 |
 
-### 移动浏览器支持
-
-| 平台 | 浏览器 | 支持 |
-|------|--------|------|
-| **iOS** | Safari | ✅ 完整 |
-| **iOS** | Chrome | ✅ 完整 |
-| **Android** | Chrome | ✅ 完整 |
-| **Android** | Firefox | ✅ 完整 |
-| **Android** | Samsung Internet | ✅ 完整 |
-
-### 云部署
-
-配置 GitHub Pages 部署：
-
-1. 导航到仓库 **Settings** → **Pages**
-2. 设置源为 **gh-pages branch** 从 **root folder**
-3. 运行 `npm run deploy` 发布
+</div>
 
 ---
 
-## ⚙️ 技术架构
+## 🛠️ 技术栈
 
-### 技术栈
+<div align="center">
 
 ```
-前端框架            React 19 (Vite)
-3D 可视化           react-globe.gl (Three.js)
-样式系统            Tailwind CSS 4.0
-UI 组件             Lucide-React
-状态管理            React Hooks
-构建系统            Vite 6
-模拟引擎            自定义高性能
-移动手势            Custom Touch Hook
-触觉反馈            Navigator Vibration API
+┌─────────────────────────────────────────┐
+│  前端：React 19 + Vite 6                │
+│  3D 引擎：react-globe.gl + Three.js     │
+│  样式系统：Tailwind CSS 4.0             │
+│  图标：Lucide-React                     │
+│  移动：触控手势 + 触觉反馈              │
+└─────────────────────────────────────────┘
 ```
 
-### 组件架构
+**性能优化:**
+- GPU 加速动画
+- 高效重渲染
+- 移动优先响应式设计
+- 触控优化交互
 
-| 组件 | 功能 | 移动增强 |
-|------|------|----------|
-| **GlobeComponent** | 3D 可视化引擎 | 触控优化、大标记 |
-| **Dashboard** | 主操作界面 | 响应式布局、移动头部 |
-| **MobileMenu** | 滑动导航 | 图层切换 |
-| **EventDetailModal** | 深入分析 | 全屏模态框 |
-| **MarketTickers** | 实时数据源 | 横向滚动 ticker |
-| **NewsFeed** | 情报简报 | 滑动底部面板 |
-| **VideoModal** | 监控源 | 带触控区的全屏 |
+</div>
 
 ---
 
-## 🔧 开发工作流
+## 📊 功能深度解析
 
-### 本地开发
+### 🌍 地球仪可视化
 
-```bash
-# 克隆和设置
-git clone <repository-url>
-cd palantir-demo
+**多层数据叠加:**
+1. **威胁环** - 地缘政治事件的脉冲警报
+2. **飞行路径** - 显示飞行器移动的动画弧线
+3. **海事路线** - 主要航运路线及交通数据
+4. **天气图标** - 19 个城市的实时状况
+5. **摄像头标记** - 直播位置带脉冲效果
+6. **辐射监测** - CPM 读数带警报指示器
 
-# 安装依赖
-npm install
-
-# 启动热重载开发服务器
-npm run dev
-```
-
-访问 `http://localhost:5173` 实时 HMR 更新。
-
-### 移动测试
-
-**Chrome DevTools：**
-1. 按 `F12` 或 `Cmd+Option+I`
-2. 点击设备切换图标或按 `Cmd+Shift+M`
-3. 选择设备预设（iPhone 14 Pro、Pixel 7、iPad）
-4. 使用鼠标/触控模拟测试手势
-
-**物理设备：**
-1. 确保设备在同一网络
-2. 通过 `http://<你的 ip>:5173` 访问
-3. 在支持的设备上测试触觉反馈
-
-### 构建流程
-
-```bash
-# 生产优化
-npm run build
-
-# 输出：dist/ 目录准备部署
-```
-
-### 预览生产构建
-
-```bash
-npm run preview
-```
+**交互元素:**
+- 点击任意标记查看详情
+- 拖动旋转地球仪
+- 滚动/捏合缩放
+- 空闲时自动旋转
 
 ---
 
-## 📋 项目结构
+### 📹 实时摄像头网络
 
-```
-palantir-demo/
-├── src/
-│   ├── components/          # React 组件模块
-│   │   ├── Dashboard.jsx    # 主布局（响应式）
-│   │   ├── GlobeComponent.jsx
-│   │   ├── EventDetailModal.jsx
-│   │   ├── MarketTickers.jsx
-│   │   ├── NewsFeed.jsx
-│   │   ├── VideoModal.jsx
-│   │   └── MobileMenu.jsx   # 新增：移动导航
-│   │
-│   ├── data/                # 数据模拟引擎
-│   │   ├── mockEngine.js
-│   │   ├── cameras.js
-│   │   └── maritimeRoutes.js
-│   │
-│   ├── hooks/               # 新增：自定义 React hooks
-│   │   └── useTouchGestures.jsx
-│   │
-│   ├── App.jsx              # 根应用组件
-│   ├── main.jsx             # 入口点
-│   └── index.css            # 移动优先全局样式
-│
-├── readme-assets/           # 文档图形
-├── mobile-screenshots.html  # 新增：移动界面展示
-├── MOBILE_IMPROVEMENTS.md   # 新增：详细移动文档
-├── index.html               # PWA 启用 HTML 模板
-├── vite.config.js           # 构建配置
-└── package.json             # 依赖清单
-```
+**60+ 地点包括:**
+
+| 类别 | 示例 |
+|----------|----------|
+| 🏙️ 城市 | 时代广场、涩谷十字路口、威尼斯 |
+| 🌋 自然 | 黄石公园、亚马逊雨林、尼亚加拉瀑布 |
+| 🦁 野生动物 | 鹰巢、熊、海洋生物 |
+| 🏛️ 地标 | 自由女神像、悉尼歌剧院 |
+| 🛰️ 太空 | 国际空间站地球视角 |
+
+**功能:**
+- YouTube 集成
+- 滑动切换频道
+- 移动端全屏观看
+- 位置元数据
 
 ---
 
-## 🎓 教育和演示用途
+### 📈 市场情报
 
-该平台展示企业级实时情报可视化能力。设计用于教育探索：
+**追踪商品:**
 
-- 高级 React 模式和性能优化
-- WebGL 和 3D Web 可视化技术
-- 实时数据流架构
-- 指挥中心高保真 UI/UX
-- 地理空间数据可视化方法
-- **移动优先响应式设计模式**
-- **触控手势识别和触觉反馈**
-- **渐进式 Web 应用（PWA）实现**
+```
+LMT (洛克希德马丁)    $430.36  ▲
+RTX (RTX 公司)        $86.78   ▼
+NOC (诺斯罗普格鲁曼)  $477.44  ▲
+CL (原油 WTI)         $77.40   ▼
+BZ (布伦特原油)       $79.62   ▲
+```
+
+实时价格模拟包含:
+- 实时百分比变化
+- 趋势指标
+- 移动端自动滚动行情
+
+---
+
+## 🎓 使用场景
+
+### 教育用途
+- 地理与地缘政治
+- 数据可视化
+- 实时系统
+- React 模式
+
+### 演示用途
+- WebGL 能力展示
+- 移动响应式
+- 触控手势处理
+- 性能优化
+
+### 作品集
+- 全栈开发
+- UI/UX 设计
+- 3D 可视化
+- 移动优先方法
+
+---
+
+## 📖 文档
+
+<div align="center">
+
+| 文档 | 描述 |
+|----------|-------------|
+| [📱 移动改进](MOBILE_IMPROVEMENTS.md) | 完整移动开发指南 |
+| [📸 截图展示](mobile-screenshots.html) | 交互式移动演示 |
+| [🇬🇧 English](README.md) | English documentation |
+| [🇪🇸 Español](README.es.md) | Documentación en español |
+| [🇫🇷 Français](README.fr.md) | Documentation française |
+
+</div>
+
+---
+
+## 🎯 独特之处
+
+<div align="center">
+
+### 🔥 亮点
+
+✅ **400+ 实时元素** - 全部同步更新  
+✅ **60+ 实时摄像头** - 来自世界各地  
+✅ **移动触觉反馈** - 交互触觉响应  
+✅ **触控手势** - 直观滑动控制  
+✅ **玻璃形态** - 现代 UI 美学  
+✅ **零后端** - 纯客户端模拟  
+✅ **PWA 就绪** - 可安装 Web 应用  
+✅ **完全响应式** - 320px 至 2560px+  
+
+</div>
+
+---
+
+## 🌟 测试演示
+
+<div align="center">
+
+### 准备好体验了吗？
+
+[![启动演示](https://img.shields.io/badge/🚀-启动演示-green?style=for-the-badge&logo=rocket)](https://lluisagusti.github.io/palantir-demo/)
+
+**https://lluisagusti.github.io/palantir-demo/**
+
+1. 点击上方链接
+2. 等待 5 秒数据初始化
+3. 开始探索地球仪
+4. 点击标记查看详情
+5. 点击摄像头图标观看直播
+6. 滑动导航（移动端）
+
+**专业提示:**
+- 让地球仪自动旋转以获得完整效果
+- 尝试移动视图获得最佳体验
+- 观看市场行情实时更新
+- 在全屏模式下切换摄像头
+
+</div>
 
 ---
 
 ## 📄 许可和归属
 
-为演示和教育目的创建
-
-### 移动开发亮点
-
-- ✅ 完全响应式设计（320px - 2560px+）
-- ✅ 针对触控优化的交互
-- ✅ 触觉反馈集成
-- ✅ 安全区域支持（刘海屏设备）
-- ✅ 玻璃形态界面效果
-- ✅ 针对移动优化的性能
-- ✅ PWA 就绪元标签
-
 <div align="center">
 
-**咨询**：查看仓库 issues 或文档
+为**演示和教育目的**创建
 
-**移动文档**：[MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)
+使用 React、Three.js 和现代 Web 技术构建 ❤️
 
-</div>
+**有问题？** [提交 Issue](https://github.com/lluisagusti/palantir-demo/issues)
 
 ---
 
-## 📖 附加文档
+### 🎯 不要只是阅读 - 亲自体验!
 
-- **[MOBILE_IMPROVEMENTS.md](MOBILE_IMPROVEMENTS.md)** - 完整的移动响应式文档
-- **[mobile-screenshots.html](mobile-screenshots.html)** - 交互式移动界面展示
-- **README.md** - 英文文档
-- **README.es.md** - 西班牙语文档
-- **README.fr.md** - 法语文档
+[![尝试现场演示](https://img.shields.io/badge/🌍-尝试现场演示-blue?style=for-the-badge&logo=google-chrome)](https://lluisagusti.github.io/palantir-demo/)
+
+**https://lluisagusti.github.io/palantir-demo/**
+
+</div>
